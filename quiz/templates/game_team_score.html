@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- {% load static %} -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/png" href="{% static 'assets/logo-icon.png' %}"/>
+    
+    <script src="https://kit.fontawesome.com/950a7547ea.js" crossorigin="anonymous"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'css/game.css' %}" /> 
+    <title>Abracadabra Quiz</title>
+</head>
+<body>
+    <div class="game-team-page" id="game-team-app">
+        <div class="game-logos-section">
+            <img src="{% static 'assets/logo-game-icon-bg-yellow.png' %}" alt="" srcset="" class="yellow-logo-game">
+        </div>
+        
+        <div class="team-score-section">
+            <div class="score-header-one">
+                <div class="high-score-header-text">Score</div>
+                <div class="high-score-header-line"></div>
+            </div>
+            <div class="score-header-two">
+                <div class="score-header-text">Team</div>
+                <div class="score-header-text">{{team.name}}</div>
+            </div>
+            <div class="score-header-three">
+                <span class="score-header-three-text">{{team.score}} <span class="score-header-three-text-span">Points</span></span>
+            </div>
+            <a href="{% url 'home' %}">
+                <button class="home-button">
+                    <span class="prev-button-text">home</span>
+                </button>
+            </a>
+        </div>
+        <div class="game-footer-section">
+            <img src="{% static 'assets/kebab-icon.png' %}" alt="" srcset="" class="kebab-icon">
+            <img src="{% static 'assets/box-abra.png' %}" alt="" srcset="" class="box-abra">
+        </div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+<script src="{% static 'js/game-team.js' %}"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- {% load static %} -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/png" href="{% static 'assets/logo-icon.png' %}"/>
+
+    <script src="https://kit.fontawesome.com/950a7547ea.js" crossorigin="anonymous"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'css/main.css' %}" /> 
+    <title>Abracadabra Quiz</title>
+</head>
+<body>
+    <div class="home-page">
+        <div class="logos-section">
+            <img src="{% static 'assets/logo-icon.png' %}" alt="" srcset="" class="logo">
+            <img src="{% static 'assets/logo-game-icon-bg-red.png' %}" alt="" srcset="" class="logo-game">
+        </div>
+        <div class="box-section">
+            <img src="{% static 'assets/box-home.png' %}" alt="" srcset="" class="box-home">
+        </div>
+        <div class="buttons-section">
+            <a href="{% url 'game' %}">
+                <button class="play-button">
+                    <span class="play-button-text">Jouer</span>
+                </button>
+            </a>
+            <a href="{% url 'highscore' %}">
+                <button class="highscore-button">
+                    <span class="highscore-button-text">Highscore</span>
+                </button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
