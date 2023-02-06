@@ -195,7 +195,7 @@ a {
     font-size: 1.5rem;
 }
 .form-section-one {
-    height: 48vh;
+    height: 63vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -220,7 +220,7 @@ input#number_player {
     color: var(--white-color);
     border: 2px solid var(--secondary-color);
     border-radius: 17px;
-    height: 7vh;
+    height: 9vh;
     width: 93%;
     padding-left: 7%;
     font-size: 25px;
@@ -241,7 +241,7 @@ input#team_name {
     color: var(--white-color);
     border: 2px solid var(--secondary-color);
     border-radius: 17px;
-    height: 7vh;
+    height: 9vh;
     width: 93%;
     padding-left: 7%;
     font-size: 25px;
@@ -261,7 +261,7 @@ input#team_name::placeholder{
 
 .form-section-two{
     display: none;
-    height: 49vh;
+    height: 63vh;
     align-items: center;
     flex-direction: column;
 }
@@ -285,7 +285,7 @@ input#player_name {
     color: var(--white-color);
     border: 2px solid var(--secondary-color);
     border-radius: 17px;
-    height: 6vh;
+    height: 8vh;
     margin-top: 1vh;
     width: 93%;
     padding-left: 7%;
@@ -305,7 +305,7 @@ input#player_family_name {
     color: var(--white-color);
     border: 2px solid var(--secondary-color);
     border-radius: 17px;
-    height: 6vh;
+    height: 8vh;
     margin-top: 1vh;
     width: 93%;
     padding-left: 7%;
@@ -325,7 +325,7 @@ input#player_phone {
     color: var(--white-color);
     border: 2px solid var(--secondary-color);
     border-radius: 17px;
-    height: 6vh;
+    height: 8vh;
     margin-top: 1vh;
     width: 93%;
     padding-left: 7%;
@@ -345,7 +345,7 @@ input#player_email {
     color: var(--white-color);
     border: 2px solid var(--secondary-color);
     border-radius: 17px;
-    height: 6vh;
+    height: 8vh;
     margin-top: 1vh;
     width: 93%;
     padding-left: 7%;
@@ -365,7 +365,7 @@ input#player_city {
     color: var(--white-color);
     border: 2px solid var(--secondary-color);
     border-radius: 17px;
-    height: 6vh;
+    height: 8vh;
     margin-top: 1vh;
     width: 93%;
     padding-left: 7%;
@@ -640,7 +640,7 @@ input#player_city::placeholder{
 }
 
 
-
+/* 
 @media screen and (max-height: 600px) {
     .kebab-icon {
         z-index: 100;
@@ -688,7 +688,7 @@ input#player_city::placeholder{
     .game-footer-section{
         display: none;
     }
-}
+} */
 
 
 textarea:focus, input:focus, button:focus{
