@@ -641,7 +641,7 @@ input#player_city::placeholder{
 
 
 
-@media screen and (max-height: 560px) {
+@media screen and (max-height: 600px) {
     .kebab-icon {
         z-index: 100;
         width: 35vw;
@@ -691,6 +691,9 @@ input#player_city::placeholder{
 }
 
 
-textarea:focus, input:focus{
+textarea:focus, input:focus, button:focus{
+    outline: none;
+}
+textarea:focus-visible, input:focus-visible, button:focus-visible{
     outline: none;
 }

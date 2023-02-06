@@ -517,6 +517,9 @@ a {
     font-weight: 700;
     margin-top: 1vh;
 }
-textarea:focus, input:focus{
+textarea:focus, input:focus, button:focus{
+    outline: none;
+}
+textarea:focus-visible, input:focus-visible, button:focus-visible{
     outline: none;
 }
