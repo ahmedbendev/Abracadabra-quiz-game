@@ -206,15 +206,13 @@ a {
     font-stretch: extra-condensed;
     text-transform: capitalize;
     line-height: 1.7rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-bottom: 3vh;
 }
 .form-one-text-span {
     color: var(--secondary-color);
     font-weight: 800;
-    font-size: 2rem;
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    font-size: 1.7rem;
 }
 
 input#number_player {
@@ -533,7 +531,7 @@ input#player_city::placeholder{
     border: none;
     height: 8vh;
     margin-bottom: 2vh;
-    width: 61vw;
+    width: 66vw;
     display: flex;
     align-items: center;
 }
@@ -544,7 +542,7 @@ input#player_city::placeholder{
     border: none;
     height: 8vh;
     margin-bottom: 2vh;
-    width: 61vw;
+    width: 66vw;
     display: flex;
     align-items: center;
 }
@@ -555,7 +553,7 @@ input#player_city::placeholder{
     border: none;
     height: 8vh;
     margin-bottom: 2vh;
-    width: 61vw;
+    width: 66vw;
     display: flex;
     align-items: center;
 }
@@ -566,7 +564,7 @@ input#player_city::placeholder{
     border: none;
     height: 8vh;
     margin-bottom: 2vh;
-    width: 61vw;
+    width: 66vw;
     display: flex;
     align-items: center;
 }
@@ -577,7 +575,7 @@ input#player_city::placeholder{
     border: none;
     height: 8vh;
     margin-bottom: 2vh;
-    width: 61vw;
+    width: 66vw;
     display: flex;
     align-items: center;
 }
@@ -588,7 +586,7 @@ input#player_city::placeholder{
     border: none;
     height: 8vh;
     margin-top: 2vh;
-    width: 44vw;
+    width: 47vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -635,7 +633,7 @@ input#player_city::placeholder{
     font-size: 1rem;
     display: block;
     font-weight: 800;
-    margin-left: 18vw;
+    margin-left: 20vw;
 }
 .team-point-score {
     font-size: 0.8rem;
@@ -685,6 +683,14 @@ input#player_city::placeholder{
         height: 45vh;
     }
     .form-section-two{
-        height: 51vh;
+        height: 56vh;
     }
+    .game-footer-section{
+        display: none;
+    }
+}
+
+
+textarea:focus, input:focus{
+    outline: none;
 }
