@@ -115,14 +115,14 @@ a {
     font-family: "Acumin";
     font-stretch: extra-condensed;
     font-weight: 800;
-    font-size: 2.3rem;
+    font-size: 1.3rem;
 }
 .next-button-text {
     color: var(--primary-color);
     font-family: "Acumin";
     font-stretch: extra-condensed;
     font-weight: 800;
-    font-size: 2.3rem;
+    font-size: 1.3rem;
 }
 
 
@@ -151,7 +151,7 @@ a {
     color: var(--primary-color);
     font-family: "Acumin";
     font-stretch: extra-condensed;
-    font-size: 2rem;
+    font-size: 1.4rem;
     width: 67%;
     display: block;
     margin-left: 24%;
@@ -188,7 +188,7 @@ a {
     color: var(--primary-color);
     font-family: "Acumin";
     font-stretch: extra-condensed;
-    font-size: 2.5rem;
+    font-size: 1.4rem;
     display: block;
     font-weight: 700;
     margin-top: 1vh;
@@ -242,7 +242,7 @@ a {
     width: 70%;
     height: 70%;
     margin-right: 5%;
-    border: 6px solid var(--primary-color);
+    border: 5px solid var(--primary-color);
     border-radius: 15px;
 }
 
@@ -250,7 +250,7 @@ a {
     width: 70%;
     height: 70%;
     margin-left: 5%;
-    border: 6px solid var(--primary-color);
+    border: 5px solid var(--primary-color);
     border-radius: 15px;
 }
 
@@ -275,7 +275,7 @@ a {
     border: none;
     height: 8vh;
     margin-bottom: 2vh;
-    width: 70vw;
+    width: 61vw;
     display: flex;
     align-items: center;
 }
@@ -286,7 +286,7 @@ a {
     border: none;
     height: 8vh;
     margin-bottom: 2vh;
-    width: 70vw;
+    width: 61vw;
     display: flex;
     align-items: center;
 }
@@ -297,7 +297,7 @@ a {
     border: none;
     height: 8vh;
     margin-bottom: 2vh;
-    width: 70vw;
+    width: 61vw;
     display: flex;
     align-items: center;
 }
@@ -308,7 +308,7 @@ a {
     border: none;
     height: 8vh;
     margin-bottom: 2vh;
-    width: 70vw;
+    width: 61vw;
     display: flex;
     align-items: center;
 }
@@ -319,7 +319,7 @@ a {
     border: none;
     height: 8vh;
     margin-bottom: 2vh;
-    width: 70vw;
+    width: 61vw;;
     display: flex;
     align-items: center;
 }
@@ -374,7 +374,7 @@ a {
     color: var(--primary-color);
     font-family: "Acumin";
     font-stretch: extra-condensed;
-    font-size: 2rem;
+    font-size: 1rem;
     display: block;
     font-weight: 800;
     margin-left: 16vw;
@@ -463,22 +463,22 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 4vh;
+    margin-bottom: 2vh;
 }
 .score-header-two {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 4vh;
+    margin-bottom: 3vh;
 }
 .score-header-text {
     color: var(--white-color);
     font-family: "Acumin";
     font-stretch: extra-condensed;
-    font-size: 5rem;
+    font-size: 3rem;
     display: block;
     font-weight: 800;
-    margin-top: -1vh;
+    margin-top: -2vh;
     text-transform: uppercase;
 }
 .score-header-three {
@@ -487,10 +487,10 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     border: none;
-    width: 47vw;
+    width: 42vw;
     cursor: pointer;
     height: 9vh;
-    margin-bottom: 11vh;
+    margin-bottom: 4vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -499,20 +499,20 @@ a {
     color: var(--secondary-color);
     font-family: "Acumin";
     font-stretch: extra-condensed;
-    font-size: 3rem;
+    font-size: 2rem;
     display: block;
     font-weight: 800;
     text-transform: capitalize;
     margin-top: 0.5vh;
 }
 .score-header-three-text-span{
-    font-size: 2rem;
+    font-size: 1.3rem;
 }
 .answers-item-text-small {
     color: var(--primary-color);
     font-family: "Acumin";
     font-stretch: extra-condensed;
-    font-size: 1.5rem;
+    font-size: 1rem;
     display: block;
     font-weight: 700;
     margin-top: 1vh;

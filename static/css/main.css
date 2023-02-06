@@ -53,7 +53,7 @@ a {
     height: 60vh;
 }
 .box-home {
-    width: 75%;
+    width: 65%;
     margin-left: 7%;
 }
 .buttons-section {
@@ -86,7 +86,7 @@ a {
     color: var(--third-color);
     font-family: "Acumin";
     font-stretch: extra-condensed;
-    font-size: 3.3rem;
+    font-size: 2rem;
     font-weight: 800;
 }
 
@@ -105,7 +105,7 @@ a {
     color: var(--third-color);
     font-family: "Acumin";
     font-stretch: extra-condensed;
-    font-size: 3.3rem;
+    font-size: 2rem;
     font-weight: 800;
 }
 
@@ -192,10 +192,10 @@ a {
     font-family: "Acumin";
     font-stretch: extra-condensed;
     font-weight: 800;
-    font-size: 2.3rem;
+    font-size: 1.5rem;
 }
 .form-section-one {
-    height: 50vh;
+    height: 48vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -205,14 +205,14 @@ a {
     font-family: 'Acumin';
     font-stretch: extra-condensed;
     text-transform: capitalize;
-    line-height: 3rem;
-    font-size: 2rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 3vh;
 }
 .form-one-text-span {
     color: var(--secondary-color);
     font-weight: 800;
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding-right: 0.5rem;
     padding-left: 0.5rem;
 }
@@ -230,6 +230,7 @@ input#number_player {
     margin-top: 2vh;
     font-family: "Acumin";
     font-stretch: extra-condensed;
+    border-radius: 15px;
 }
 input#number_player::placeholder{
     color: var(--white-color);
@@ -248,6 +249,7 @@ input#team_name {
     font-size: 25px;
     font-family: "Acumin";
     font-stretch: extra-condensed;
+    border-radius: 15px;
 }
 input#team_name::placeholder{
     color: var(--white-color);
@@ -292,6 +294,7 @@ input#player_name {
     font-size: 25px;
     font-family: "Acumin";
     font-stretch: extra-condensed;
+    border-radius: 15px;
 }
 input#player_name::placeholder{
     color: var(--white-color);
@@ -311,6 +314,7 @@ input#player_family_name {
     font-size: 25px;
     font-family: "Acumin";
     font-stretch: extra-condensed;
+    border-radius: 15px;
 }
 input#player_family_name::placeholder{
     color: var(--white-color);
@@ -330,6 +334,7 @@ input#player_phone {
     font-size: 25px;
     font-family: "Acumin";
     font-stretch: extra-condensed;
+    border-radius: 15px;
 }
 input#player_phone::placeholder{
     color: var(--white-color);
@@ -349,6 +354,7 @@ input#player_email {
     font-size: 25px;
     font-family: "Acumin";
     font-stretch: extra-condensed;
+    border-radius: 15px;
 }
 input#player_email::placeholder{
     color: var(--white-color);
@@ -368,6 +374,7 @@ input#player_city {
     font-size: 25px;
     font-family: "Acumin";
     font-stretch: extra-condensed;
+    border-radius: 15px;
 }
 input#player_city::placeholder{
     color: var(--white-color);
@@ -401,7 +408,7 @@ input#player_city::placeholder{
     color: var(--primary-color);
     font-family: "Acumin";
     font-stretch: extra-condensed;
-    font-size: 2rem;
+    font-size: 1.4rem;
     width: 67%;
     display: block;
     margin-left: 24%;
@@ -526,7 +533,7 @@ input#player_city::placeholder{
     border: none;
     height: 8vh;
     margin-bottom: 2vh;
-    width: 70vw;
+    width: 61vw;
     display: flex;
     align-items: center;
 }
@@ -537,7 +544,7 @@ input#player_city::placeholder{
     border: none;
     height: 8vh;
     margin-bottom: 2vh;
-    width: 70vw;
+    width: 61vw;
     display: flex;
     align-items: center;
 }
@@ -548,7 +555,7 @@ input#player_city::placeholder{
     border: none;
     height: 8vh;
     margin-bottom: 2vh;
-    width: 70vw;
+    width: 61vw;
     display: flex;
     align-items: center;
 }
@@ -559,7 +566,7 @@ input#player_city::placeholder{
     border: none;
     height: 8vh;
     margin-bottom: 2vh;
-    width: 70vw;
+    width: 61vw;
     display: flex;
     align-items: center;
 }
@@ -570,7 +577,7 @@ input#player_city::placeholder{
     border: none;
     height: 8vh;
     margin-bottom: 2vh;
-    width: 70vw;
+    width: 61vw;
     display: flex;
     align-items: center;
 }
@@ -581,7 +588,7 @@ input#player_city::placeholder{
     border: none;
     height: 8vh;
     margin-top: 2vh;
-    width: 50vw;
+    width: 44vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -595,7 +602,7 @@ input#player_city::placeholder{
     color: var(--white-color);
     font-family: "Acumin";
     font-stretch: extra-condensed;
-    font-size: 3rem;
+    font-size: 2rem;
     display: block;
     font-weight: 700;
     margin-top: 1vh;
@@ -611,7 +618,7 @@ input#player_city::placeholder{
     color: var(--primary-color);
     font-family: "Acumin";
     font-stretch: extra-condensed;
-    font-size: 3rem;
+    font-size: 1.5rem;
     display: block;
     font-weight: 800;
     margin-top: 0.5vh;
@@ -625,11 +632,50 @@ input#player_city::placeholder{
     color: var(--primary-color);
     font-family: "Acumin";
     font-stretch: extra-condensed;
-    font-size: 2rem;
+    font-size: 1rem;
     display: block;
     font-weight: 800;
-    margin-left: 22vw;
+    margin-left: 18vw;
 }
 .team-point-score {
-    font-size: 1.3rem;
+    font-size: 0.8rem;
+}
+
+
+
+@media screen and (max-height: 560px) {
+    .kebab-icon {
+        z-index: 100;
+        width: 35vw;
+        position: fixed;
+        bottom: 2vh;
+        right: 52vw;
+    }
+    .box-abra {
+        width: 46vw;
+        bottom: -13vh;
+        position: fixed;
+        right: -11vw;
+    }
+    input#number_player{
+        font-size: 16px;
+    }
+    input#team_name{
+        font-size: 16px;
+    }
+    input#player_name {
+        font-size: 16px;
+    }
+    input#player_family_name {
+        font-size: 16px;   
+    }
+    input#player_phone {
+        font-size: 16px;
+    }
+    input#player_email {
+        font-size: 16px;
+    }
+    input#player_city {
+        font-size: 16px;
+    }
 }
